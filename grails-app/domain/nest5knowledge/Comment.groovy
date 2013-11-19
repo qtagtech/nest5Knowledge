@@ -10,4 +10,8 @@ class Comment {
     static mapping = {
         content type: 'text'
     }
+
+    String toString(){
+        date.toString()
+    }
 }
