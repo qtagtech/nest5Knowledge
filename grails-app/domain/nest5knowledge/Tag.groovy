@@ -13,4 +13,8 @@ class Tag {
     static mapping = {
         keywords type: 'text'
     }
+
+    String toString(){
+        name
+    }
 }
