@@ -5,7 +5,7 @@ class Question {
     static belongsTo = [category: Category, type: Type]
     String content
     Date date
-    Double rating
+    Float rating
     Integer votes
 
 

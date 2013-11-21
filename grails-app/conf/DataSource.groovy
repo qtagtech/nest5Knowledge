@@ -18,7 +18,7 @@ environments {
             dbCreate = "update"
             driverClassName = "org.postgresql.Driver"
             dialect = "org.hibernate.dialect.PostgreSQLDialect"
-            url = "jdbc:postgresql://localhost:5432/knowledgeDB"
+            url = "jdbc:postgresql://localhost:5432/knowledgeDBNew"
             username = "postgres"
             password = "qtagtech"
         }

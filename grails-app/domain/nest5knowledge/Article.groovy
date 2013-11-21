@@ -10,7 +10,7 @@ class Article {
     Date date
     Integer hits
     String content
-    Double rating
+    Float rating
     Integer votes
 
 

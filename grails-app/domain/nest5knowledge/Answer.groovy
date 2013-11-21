@@ -5,7 +5,7 @@ class Answer {
     static hasMany = [comments: Comment]
     String content
     Date date
-    Double rating
+    Float rating
     Integer votes
 
 
