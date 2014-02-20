@@ -63,8 +63,8 @@ class CategoryController {
         if (version != null) {
             if (categoryInstance.version > version) {
                 categoryInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
-                          [message(code: 'category.label', default: 'Category')] as Object[],
-                          "Another user has updated this Category while you were editing")
+                        [message(code: 'category.label', default: 'Category')] as Object[],
+                        "Another user has updated this Category while you were editing")
                 render(view: "edit", model: [categoryInstance: categoryInstance])
                 return
             }
