@@ -113,3 +113,22 @@ grails {
     }
 }
 remove this line */
+
+
+// Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'nest5knowledge.SecUser'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'nest5knowledge.SecUserSecRole'
+grails.plugin.springsecurity.authority.className = 'nest5knowledge.SecRole'
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+	'/':                              ['permitAll'],
+	'/index':                         ['permitAll'],
+	'/**/js/**':                      ['permitAll'],
+    '/**/boostrap3update/**':         ['permitAll'],
+	'/**/css/**':                     ['permitAll'],
+	'/**/images/**':                  ['permitAll'],
+    '/**/img/**':                     ['permitAll'],
+    '/**/content/**':                 ['permitAll'],
+    '/**/fonts/**':                   ['permitAll'],
+	'/**/favicon.ico':                ['permitAll']
+]
+

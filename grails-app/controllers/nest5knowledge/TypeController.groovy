@@ -1,24 +1,29 @@
 package nest5knowledge
 
+import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.dao.DataIntegrityViolationException
 
 class TypeController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
-
+    def springSecurityService
+    @Secured(["ROLE_ADMIN"])
     def index() {
         redirect(action: "list", params: params)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         [typeInstanceList: Type.list(params), typeInstanceTotal: Type.count()]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def create() {
         [typeInstance: new Type(params)]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def save() {
         def typeInstance = new Type(params)
         if (!typeInstance.save(flush: true)) {
@@ -30,6 +35,7 @@ class TypeController {
         redirect(action: "show", id: typeInstance.id)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def show(Long id) {
         def typeInstance = Type.get(id)
         if (!typeInstance) {
@@ -41,6 +47,7 @@ class TypeController {
         [typeInstance: typeInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def edit(Long id) {
         def typeInstance = Type.get(id)
         if (!typeInstance) {
@@ -52,6 +59,7 @@ class TypeController {
         [typeInstance: typeInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def update(Long id, Long version) {
         def typeInstance = Type.get(id)
         if (!typeInstance) {

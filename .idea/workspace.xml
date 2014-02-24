@@ -2,27 +2,336 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\controllers\nest5knowledge\CategoryController.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/angel_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/angry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/broken_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/colors-870x490.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/confused_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/cry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/devil_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/embarrassed_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/ico/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/gg/images/gg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/images/hiddenfield.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/home_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/youtube/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_flickr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/social/white/icons_youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/inlinesave/images/inlinesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/kiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/omg_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/flash/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/iframe/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/qrc/images/qrc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/qrc/images/qrc400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/regular_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/responsive.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/responsive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/sad_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/separador1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/separador2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/img/separador3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/shades_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/fakeobjects/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/teeth_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/templates/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/templates/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/templates/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/thumbs_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/thumbs_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/tongue_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/tongue_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/whatchutalkingabout_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/images/wink_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/imageresize/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/imageresize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/content/countries.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/article/design.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/div/dialogs/div.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/flash/dialogs/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/googledocs/dialogs/googledocs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/googledocs/dialogs/googledocs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/iframe/dialogs/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery-2.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery-2.1.0.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery.backstretch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery.base64.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery.fitvids.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/dialogs/templates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/templates/dialogs/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/forms/dialogs/textfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/plugins/specialchar/dialogs/lang/zh.js" />
       <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category\_form.gsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category\create.gsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category\edit.gsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category\list.gsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category\show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\test\unit\nest5knowledge\CategoryControllerTests.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MOVED" beforePath="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index_old.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/TypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/TypeController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/article/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/article/_form.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/article/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/article/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nest5Knowledge-grailsPlugins.iml" afterPath="$PROJECT_DIR$/nest5Knowledge-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nest5Knowledge.iml" afterPath="$PROJECT_DIR$/nest5Knowledge.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nest5Knowledge.iws" />
@@ -30,10 +339,10 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/index.html" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383838885508" ignored="false" />
     <file path="/main.gsp" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383844142925" ignored="false" />
-    <file path="/index.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1385140415506" ignored="false" />
-    <file path="/Dummy.txt" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
+    <file path="/index.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393213509911" ignored="false" />
+    <file path="/Dummy.txt" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393193711406" ignored="false" />
     <file path="/Article.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1385053094592" ignored="false" />
-    <file path="/Category.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776232386" ignored="false" />
+    <file path="/Category.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393205566582" ignored="false" />
     <file path="/Tag.groovy" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383844814117" ignored="false" />
     <file path="/ArticleTag.groovy" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383844761701" ignored="false" />
     <file path="/fragment.java" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383844726455" ignored="false" />
@@ -44,12 +353,30 @@
     <file path="/Comment.groovy" changelist="d9708d39-d70c-4bfa-80ad-e51599e96d6e" time="1383845146209" ignored="false" />
     <file path="$PROJECT_DIR$/../../workspace/lab5/grails-app/conf/BuildConfig.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1385138231190" ignored="false" />
     <file path="$PROJECT_DIR$/../../workspace/lab5/grails-app/views/blog/index.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1385140438747" ignored="false" />
-    <file path="/a.dummy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776808020" ignored="false" />
+    <file path="/a.dummy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393129954227" ignored="false" />
     <file path="$PROJECT_DIR$/../../../GitHub/Nest5Web/web-app/js/dashboard/form-validation.js" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
     <file path="$PROJECT_DIR$/../../../GitHub/Nest5Web/grails-app/conf/Config.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
     <file path="$PROJECT_DIR$/../../../GitHub/Nest5Web/grails-app/conf/ApplicationResources.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
     <file path="$PROJECT_DIR$/../../../GitHub/Nest5Web/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
     <file path="$PROJECT_DIR$/../../../GitHub/Nest5Web/grails-app/views/layouts/dashboardLayout.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1392776982329" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../GitHub/Nest5Api/grails-app/conf/DataSource.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393122643688" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../GitHub/Nest5Api/grails-app/conf/BuildConfig.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393122643688" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../GitHub/Nest5Api/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393122643688" ignored="false" />
+    <file path="/Admin.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393123993337" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393134703533" ignored="false" />
+    <file path="/TypeController.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393124964268" ignored="false" />
+    <file path="/CategoryController.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393207881488" ignored="false" />
+    <file path="/b3knowledge.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393213805382" ignored="false" />
+    <file path="/index_update.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393129182231" ignored="false" />
+    <file path="/UrlMappings.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393210241977" ignored="false" />
+    <file path="/Config.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393132565416" ignored="false" />
+    <file path="/ArticleController.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393210472059" ignored="false" />
+    <file path="/design.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393200344909" ignored="false" />
+    <file path="/ApplicationResources.groovy" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393142900760" ignored="false" />
+    <file path="/create.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393140130167" ignored="false" />
+    <file path="/_form.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393196546967" ignored="false" />
+    <file path="/view.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393213395065" ignored="false" />
+    <file path="/knowledgebase.gsp" changelist="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" time="1393213425019" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,28 +437,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Type.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Type.groovy">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="46" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.2173913">
+            <state line="24" column="221" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-7.1578946">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <file leaf-file-name="b3knowledge.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="5" selection-start="3231" selection-end="3231" vertical-scroll-proportion="0.0">
+            <state line="38" column="216" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.33277026">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/article/_form.gsp">
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/article/create.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1983" selection-end="1983" vertical-scroll-proportion="-1.3877552">
+            <state line="4" column="41" selection-start="106" selection-end="110" vertical-scroll-proportion="-1.3877552">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/article/design.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="213" column="106" selection-start="13538" selection-end="13538" vertical-scroll-proportion="-32.02041">
+              <folding>
+                <marker date="1393202545427" expanded="true" signature="13086:13555" placeholder="{...}" />
+                <marker date="1393202545427" expanded="true" signature="13141:13547" placeholder="{...}" />
+                <marker date="1393202545427" expanded="true" signature="13588:14180" placeholder="{...}" />
+                <marker date="1393202545427" expanded="true" signature="13675:14038" placeholder="{...}" />
+                <marker date="1393202545427" expanded="true" signature="14048:14143" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="184" column="39" selection-start="9022" selection-end="11553" vertical-scroll-proportion="-7.387755">
+              <folding>
+                <marker date="1393213405813" expanded="true" signature="11659:11665" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knowledgebase.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="66" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-7.65">
               <folding />
             </state>
           </provider>
@@ -139,11 +501,20 @@
       </file>
       <file leaf-file-name="Category.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.36">
+            <state line="10" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,47 +523,19 @@
       <file leaf-file-name="CategoryController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="104" selection-start="209" selection-end="209" vertical-scroll-proportion="-5.9130435">
+            <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="-24.826086">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="ArticleController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="159" selection-end="159" vertical-scroll-proportion="0.129771">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/article/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="106" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-3.7959185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Comment.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="-8.130435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Answer.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="106" selection-start="339" selection-end="339" vertical-scroll-proportion="-14.043478">
-              <folding />
+            <state line="11" column="37" selection-start="324" selection-end="324" vertical-scroll-proportion="-8.130435">
+              <folding>
+                <element signature="e#24#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,22 +558,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/QuestionTag.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/ArticleTag.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Tag.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Type.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Comment.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/category/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index_update.gsp" />
+        <option value="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/application.js" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/article/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/article/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/article/design.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
       </list>
     </option>
   </component>
@@ -280,25 +623,32 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="nest5knowledge" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/grails-app/conf" />
-      <recent name="$PROJECT_DIR$/grails-app/views" />
-      <recent name="$PROJECT_DIR$/web-app" />
+      <recent name="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\category" />
+      <recent name="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\grails-app\views\article" />
+      <recent name="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\web-app\js" />
+      <recent name="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\web-app\bootstrap3update\assets\fonts" />
+      <recent name="C:\Users\Juandavid\Documents\Trabajo\Web Workspace\nest5Knowledge\web-app\bootstrap3update\assets\js" />
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:nest5Knowledge">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -309,31 +659,12 @@
       <setting name="launchBrowser" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -364,6 +695,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -377,13 +721,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -405,6 +742,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="Grails:nest5Knowledge" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -443,36 +787,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15384616" sideWeight="0.671875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.113247864" sideWeight="0.7692308" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2470651" sideWeight="0.6700611" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23076923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -538,136 +882,128 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/ArticleTag.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web-app/js/jquery.base64.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="179" selection-end="179" vertical-scroll-proportion="0.18867925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="273" selection-end="273" vertical-scroll-proportion="-9.608696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="106" selection-start="339" selection-end="339" vertical-scroll-proportion="-14.043478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/QuestionTag.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="65" selection-end="65" vertical-scroll-proportion="0.097328246">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Comment.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="-8.130435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/nest5knowledge/TypeControllerTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="116" selection-end="116" vertical-scroll-proportion="0.24727273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/article/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="106" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-3.7959185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="476" selection-end="476" vertical-scroll-proportion="0.6219512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Type.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.2173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="5" selection-start="3231" selection-end="3231" vertical-scroll-proportion="0.0">
+        <state line="10" column="14" selection-start="183" selection-end="183" vertical-scroll-proportion="0.25718608">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1983" selection-end="1983" vertical-scroll-proportion="-1.3877552">
+        <state line="107" column="25" selection-start="4416" selection-end="4416" vertical-scroll-proportion="-25.428572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="257" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/article/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="106" selection-end="110" vertical-scroll-proportion="-1.3877552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="81" selection-start="202" selection-end="202" vertical-scroll-proportion="0.23943663">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.36">
+        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="104" selection-start="209" selection-end="209" vertical-scroll-proportion="-5.9130435">
+        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="-24.826086">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="159" selection-end="159" vertical-scroll-proportion="0.129771">
+        <state line="10" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/article/design.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="106" selection-start="13538" selection-end="13538" vertical-scroll-proportion="-32.02041">
+          <folding>
+            <marker date="1393202545427" expanded="true" signature="13086:13555" placeholder="{...}" />
+            <marker date="1393202545427" expanded="true" signature="13141:13547" placeholder="{...}" />
+            <marker date="1393202545427" expanded="true" signature="13588:14180" placeholder="{...}" />
+            <marker date="1393202545427" expanded="true" signature="13675:14038" placeholder="{...}" />
+            <marker date="1393202545427" expanded="true" signature="14048:14143" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="324" selection-end="324" vertical-scroll-proportion="-8.130435">
+          <folding>
+            <element signature="e#24#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="39" selection-start="9022" selection-end="11553" vertical-scroll-proportion="-7.387755">
+          <folding>
+            <marker date="1393213405813" expanded="true" signature="11659:11665" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="66" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-7.65">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="221" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-7.1578946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="216" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.33277026">
           <folding />
         </state>
       </provider>

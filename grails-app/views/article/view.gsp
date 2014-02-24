@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta name="layout" content="b3knowledge"/>
+      <meta charset="ISO-8859-1">
+      <r:require modules="ckeditor,base64" />
+      <title>${title ?: 'Sin Título - Centro de Soporte Nest5'}</title>
+  </head>
+
+  <body class="article">
+    <!-- Paga title -->
+    <div class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-lg-8">
+            <h1>${title ?: 'Sin Título'}</h1>
+            <p class="tagline"><i class="fa fa-fw ${articleInstance?.type?.icon ?: 'fa-file-text-o'}"></i>${articleInstance?.category?.name} </p>
+          </div>
+          <div class="col-sm-4 col-lg-4">
+            <form role="search" method="get" id="searchform" class="form-search" action="#">
+              <div class="append-icon">
+                <input type="text" value="" name="s" id="autocomplete-dynamic" class="form-control input-lg" autocomplete="off" placeholder="¿Qué quieres saber? Encuentra la Respuesta.">
+                <span><i class="icon-search"></i></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <div class="main col-sm-12" role="main">%{--con sidebar ancho 9--}%
+
+          <article class="post hentry">
+            <header>
+              <h1 class="entry-title" contenteditable="true">${title ?: 'Sin Título'}</h1>
+            </header>
+            <div id="article-content">
+                <div class="featured-media" contenteditable="true">
+                  ${image ?: '<img width="870" height="490" src="${resource(dir:\'bootstrap3update/assets/img\',file:\'responsive.png\')}" alt="Centro de Soporte Nest5" />'}
+                </div>
+                <div class="entry-content">
+                  ${content ?: '<p>¡Oops!<br />Al parecer se ha presentado un error. Nuestro gurús de programación en el Euipo <a href="http://www.nest5.com" target="_blank">Nest5</a> ya han sido notificados y trabajan para arreglarlo.<br />¡Gracias por tu paciencia!></p>'}
+                </div>
+            </div>
+
+            <footer>
+              <time class="updated" datetime="2012-11-05T20:30:07+00:00" pubdate>Última Actualización: <g:formatDate date="${articleInstance?.date}" type="date" style="LONG" locale="es_CO"/> </time>
+              <p class="byline author vcard">Por <a href="#" rel="author" class="fn">Equipo de Soporte Nest5</a></p>
+            </footer>
+            <div id="author-box" class="clearfix">
+              <div class="author-box-image">
+                <img alt='' src='http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y' class='avatar pull-left media-object avatar-72 photo' height='72' width='72' />        </div><!-- /.author-box-image -->
+                <h4 class="author-box-name">Soporte Nest5</h4>
+                <div class="author-box-description">
+                  <p>Somos apasionados por el Cliente. Nuestra razón es hacer que tú, dueño, administrador, o interesado de una Marca, sepa sacar provecho de lo que Nest5 ofrece para potencializar tu negocio.</p>
+                </div><!-- /.author-box-description -->
+                <p class="author-links">
+                  <i class="icon-user"></i> <a class="author-link author-posts-url" href="#" title="John Posts">Otras Publicaciones</a>
+                  &nbsp;<i class="icon-globe"></i> <a class="author-link author-url" href="#" title="Website" target="_blank" rel="author">Sitio Web</a>
+                  &nbsp;<i class="icon-twitter-sign"></i> <a class="author-link icn-twitter" href="#" title="Twitter" target="_blank">Twitter</a>
+                  &nbsp;<i class="icon-facebook-sign"></i> <a class="author-link icn-facebook" href="#" title="Facebook" target="_blank">Facebook</a>
+                  &nbsp;<i class="icon-google-plus-sign"></i> <a class="author-link icn-gplus" href="#" title="Google+" target="_blank">Google+</a>
+                </p>
+            </div><!-- /.author-box -->   
+
+            %{--<section id="comments">
+              <h3>3 Responses to &ldquo;Responsive Design&rdquo;</h3>
+              <ol class="media-list">
+            
+                <li id="comment-18" class="comment byuser comment-author-demopressapps bypostauthor even thread-even depth-1 media comment-18">
+                  <img alt='' src='http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y' class='avatar pull-left media-object avatar-72 photo' height='72' width='72' />
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href='#' rel='external nofollow' class='url'>Steve Clark</a></h4>
+                    <time datetime="2013-02-05T22:28:55+00:00"><a href="#">February 5, 2013</a></time>
+            
+            
+                    <p>Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch “Jeopardy! “, Alex Trebek’s fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just</p>
+                    <a class='comment-reply-link' href='#' onclick='return addComment.moveForm("comment-18", "18", "respond", "734")'>Reply</a>      <ul class="comment byuser comment-author-demopressapps bypostauthor odd alt thread-odd thread-alt depth-1 media unstyled comment-18">
+                    <li id="comment-20" class="comment byuser comment-author-demopressapps bypostauthor even depth-2 media comment-20">
+                      <img alt='' src='http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y' class='avatar pull-left media-object avatar-72 photo' height='72' width='72' /><div class="media-body">
+                      <h4 class="media-heading"><a href='#' rel='external nofollow' class='url'>Steve Clark</a></h4>
+                      <time datetime="2013-02-05T22:29:23+00:00"><a href="#">February 5, 2013</a></time>
+                      <p>A very bad quack might jinx zippy fowls.</p>
+                      <a class='comment-reply-link' href='#' onclick='return addComment.moveForm("comment-20", "20", "respond", "734")'>Reply</a>  </div></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li id="comment-19" class="comment byuser comment-author-demopressapps bypostauthor odd alt thread-even depth-1 media comment-19">
+                  <img alt='' src='http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y' class='avatar pull-left media-object avatar-72 photo' height='72' width='72' />
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href='#' rel='external nofollow' class='url'>Steve Clark</a></h4>
+                    <time datetime="2013-02-05T22:29:08+00:00"><a href="#">February 5, 2013</a></time>
+                    <p>A wizard’s job is to vex chumps quickly in fog. Watch “Jeopardy! “, Alex Trebek’s fun TV quiz game. Woven silk pyjamas e</p>
+                    <a class='comment-reply-link' href='#' onclick='return addComment.moveForm("comment-19", "19", "respond", "734")'>Reply</a>  
+                  </div>
+                </li>
+
+              </ol>
+            </section>--}%<!-- /#comments -->
+
+            %{--<section id="respond">
+              <h3>Leave a Reply</h3>
+              <p class="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Click here to cancel reply.</a></p>
+                <form action="#" method="post" id="commentform">
+                  <div class="form-group">
+                    <label for="author">Name</label>
+                    <input type="text" class="form-control" name="author" id="author" value="" size="22" aria-required="true">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" value="" size="22" aria-required="true">
+                  </div>
+                  <div class="form-group">
+                    <label for="url">Website</label>
+                    <input type="url" class="form-control" name="url" id="url" value="" size="22">
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" class="form-control" rows="5" aria-required="true"></textarea>
+                  </div>
+                  <p><input name="submit" class="btn btn-primary" type="submit" id="submit" value="Submit Comment"></p>
+                  <input type='hidden' name='comment_post_ID' value='734' id='comment_post_ID' />
+                  <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                </form>
+              </section>--}%<!-- /#respond -->
+            </article>
+
+        </div><!-- /.main -->
+
+        %{--<!-- Sidebar -->
+        <aside class="sidebar col-sm-3" role="complementary">
+
+          <section class="widget nav_menu-2 widget_nav_menu">
+            <div>
+              <h3>Knowledge Base</h3>
+              <ul>
+                <li><a href="#">Getting Started</a></li>
+                <li><a href="#">Administration</a></li>
+                <li><a href="#">Admin Panel</a></li>
+                <li><a href="#">Extensions</a></li>
+                <li><a href="#">Shipping Methods</a></li>
+                <li><a href="#">Tips and Tricks</a></li>
+                <li><a href="#">Troubleshooting</a></li>
+                <li><a href="#">Video Tutorials</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="widget">
+            <div>
+              <h3>Popular Articles</h3>
+              <ul>
+                <li>
+                  <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Unlimited Colors">Unlimited Colors</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Multiple installs on domain">Multiple installs on domain</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Import and Export Extension">Import and Export Extension</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Plugin Installation">Plugin Installation</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Local Server Setup">Local Server Setup</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Theme Installation">Theme Installation</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Multiple Ship to Addresses">Multiple Ship to Addresses</a>
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Well Documented">Well Documented</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        </aside><!-- /.sidebar -->--}%
+      </div><!-- /.content -->
+    </div><!-- /.wrap -->
+
+ 
+   <r:script>
+   $(document).ready(function(){
+   });
+   </r:script>
+
+  </body>
+</html>
