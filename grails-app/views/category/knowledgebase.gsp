@@ -1,3 +1,4 @@
+<%@ page import="nest5knowledge.Article" %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,12 +7,12 @@
 
       <title>Tutoriales y Artículos</title>
   </head>
+<%-- SMM aca dice knowKedgebase --%>
+  <body class="knowledgebase">
 
-  <body class="knowkedgebase">
 
 
-
-    <!-- Paga title -->
+    <!-- Page title -->
     <div class="main-header">
       <div class="container">
         <div class="row">
@@ -34,7 +35,7 @@
     <!-- Main content -->
     <div class="wrap container" role="document">
       <div class="content row">
-        <div class="main col-sm-12" role="main"> %{--con sidebar 9--}%
+        <div class="main col-sm-9" role="main"> %{--con sidebar 9--}%
           %{--every 3 categories, a knowledge-base-row must be created--}%
         <g:each in="${categories}" var="category" status="i">
             <g:if test="${i % 3 == 0}">
@@ -49,7 +50,8 @@
                         <g:each in="${elements[i]}" var="article" status="j">
                             <li>
                                 <i class="fa fa-fw ${article?.type?.icon ?: 'fa-file-text-o'}"></i>
-                                <a href="#">${java.net.URLDecoder.decode(article?.title ?: 'Sin Título','ISO-8859-1')}</a>
+                                <!-- SMM arregle el HREF de los articulos -->
+                                <a href="${createLink(uri: '/')+article?.url}">${java.net.URLDecoder.decode(article?.title ?: 'Sin Título','ISO-8859-1')}</a>
                             </li>
                         </g:each>
                     </g:if>
@@ -65,7 +67,7 @@
                 </ul>
 
                 <span class="label label-primary">
-                    <a href="#" >Ver todos los (${nest5knowledge.Article.countByCategory(category)}) Artículos<i class="fa fa-chevron-right"></i></a>
+                    <a href="#" >Ver todos los (${nest5knowledge.Article.countByCategory(category)}) artículos  <i class="fa fa-chevron-right"></i></a>
                 </span>
             </div>
             <g:if test="${category == categories.last()}">
@@ -76,60 +78,116 @@
             </g:elseif>
         </g:each>
       </div><!-- /.main -->
+    <!-- Sidebar -->
+    <aside class="sidebar col-sm-3" role="complementary">
 
-      <!-- Sidebar -->
-      %{--<aside class="sidebar col-sm-3" role="complementary">
 
-        <section class="widget nav_menu-2 widget_nav_menu">
-          <div>
-            <h3>Knowledge Base</h3>
-            <ul>
-              <li><a href="#">Getting Started</a></li>
-              <li><a href="#">Administration</a></li>
-              <li><a href="#">Admin Panel</a></li>
-              <li><a href="#">Extensions</a></li>
-              <li><a href="#">Shipping Methods</a></li>
-              <li><a href="#">Tips and Tricks</a></li>
-              <li><a href="#">Troubleshooting</a></li>
-              <li><a href="#">Video Tutorials</a></li>
-            </ul>
-          </div>
-        </section>
 
         <section class="widget">
-          <div>
-            <h3>Popular Articles</h3>
-            <ul>
-              <li>
-                <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Unlimited Colors">Unlimited Colors</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Multiple installs on domain">Multiple installs on domain</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Import and Export Extension">Import and Export Extension</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Plugin Installation">Plugin Installation</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Local Server Setup">Local Server Setup</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Theme Installation">Theme Installation</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-film"></i> <a href="#" rel="bookmark" title="Permanent link to Multiple Ship to Addresses">Multiple Ship to Addresses</a>
-              </li>
-              <li>
-                <i class="fa fa-fw fa-file-text-o"></i> <a href="#" rel="bookmark" title="Permanent link to Well Documented">Well Documented</a>
-              </li>
-            </ul>
-          </div>
+            <div>
+                <!-- SMM puse los articulos mas valiosos en el sidebar Yea BITCH -->
+                <h3>Artículos Más Valiosos</h3>
+                <ul>
+                    <%
+                        def articulosrate = Article.list(sort: 'rating', order: 'desc', max: 5)
+                    %>
+                    <g:if test="${articulosrate?.size() > 0}">
+                        <g:each in="${articulosrate}" var="articulo" status="i">
+                            <li>
+                                <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                            </li>
+                        </g:each>
+                    </g:if>
+                    <g:else>
+                        <div class="fade in alert alert-info">
+                            <i class="fa fa-fw fa-exclamation-triangle"></i>
+                            Vuelve pronto y esto estará con contenido.
+                        </div>
+                    </g:else>
+                </ul>
+            </div>
         </section>
 
-      </aside><!-- /.sidebar -->--}%
+
+        <section class="widget">
+            <div>
+                <!-- SMM puse los articulos mas votados en el sidebar PERFECT CUCHEY  -->
+                <h3>Artículos Más Votados</h3>
+                <ul>
+                    <%
+                        def articulosvotes = Article.list(sort: 'votes', order: 'desc', max: 5)
+                    %>
+                    <g:if test="${articulosvotes?.size() > 0}">
+                        <g:each in="${articulosvotes}" var="articulo" status="i">
+                            <li>
+                                <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                            </li>
+                        </g:each>
+                    </g:if>
+                    <g:else>
+                        <div class="fade in alert alert-info">
+                            <i class="fa fa-fw fa-exclamation-triangle"></i>
+                            Vuelve pronto y esto estará con contenido.
+                        </div>
+                    </g:else>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="widget">
+            <div>
+                <!-- SMM puse los articulos populares en el sidebar FUCKING NICE :( -->
+                <h3>Artículos Populares</h3>
+                <ul>
+                    <%
+                        def articuloshits = Article.list(sort: 'hits', order: 'desc', max: 5)
+                    %>
+                    <g:if test="${articuloshits?.size() > 0}">
+                        <g:each in="${articuloshits}" var="articulo" status="i">
+                            <li>
+                                <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                            </li>
+                        </g:each>
+                    </g:if>
+                    <g:else>
+                        <div class="fade in alert alert-info">
+                            <i class="fa fa-fw fa-exclamation-triangle"></i>
+                            Vuelve pronto y esto estará con contenido.
+                        </div>
+                    </g:else>
+                </ul>
+            </div>
+        </section>
+        <!-- SMM puse los articulos recientes en el sidebar al pelo-->
+        <section class="widget">
+            <div>
+                <h3>Artículos Recientes</h3>
+                <ul>
+                    <%
+                        def articulos = Article.list(sort: 'date', order: 'desc', max: 5)
+                    %>
+                    <g:if test="${articulos?.size() > 0}">
+                        <g:each in="${articulos}" var="articulo" status="i">
+                            <li>
+                                <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                            </li>
+                        </g:each>
+                    </g:if>
+                    <g:else>
+                        <div class="fade in alert alert-info">
+                            <i class="fa fa-fw fa-exclamation-triangle"></i>
+                            Vuelve pronto y esto estará con contenido.
+                        </div>
+                    </g:else>
+                </ul>
+            </div>
+        </section>
+
+    </aside><!-- /.sidebar -->
+
     </div><!-- /.content -->
+
   </div><!-- /.wrap -->
 
  
