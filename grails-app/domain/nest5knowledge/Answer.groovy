@@ -15,6 +15,6 @@ class Answer {
         content type: 'text'
     }
     String toString(){
-        date.toString()
+        content
     }
 }

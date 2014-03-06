@@ -19,7 +19,10 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+        </datasource-map>
+        <naming-strategy-map />
       </configuration>
     </facet>
   </component>
@@ -29,22 +32,21 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
     </content>
-    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (nest5Knowledge)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.2.0.RC1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.2.0.RC1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/com.gmongo/gmongo/jars/gmongo-1.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.javassist/javassist/jars/javassist-3.16.1-GA.jar!/" />
@@ -56,13 +58,6 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-mongodb/jars/spring-data-mongodb-1.2.1.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-commons-core/jars/spring-data-commons-core-1.4.1.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.11.3.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.7.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.50.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.50.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.50.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.50.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.8.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
@@ -72,17 +67,26 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons.codec/commons-logging/jars/commons-logging-1.1.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons.codec/commons-codec/jars/commons-codec-1.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.5.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.7.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.http/httpclient/jars/httpclient-4.2.3.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.http/httpcore/jars/httpcore-4.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.2.0.RC1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/postgresql/postgresql/jars/postgresql-8.4-702.jdbc3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.10.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.50.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.50.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.50.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="grails-2.3.5" level="application" />
     <orderEntry type="module" module-name="nest5Knowledge-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.3.6" level="application" />
+    <orderEntry type="library" name="grails-2.3.6" level="application" />
   </component>
 </module>
 

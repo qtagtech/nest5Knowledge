@@ -26,7 +26,7 @@
     <r:layoutResources />
 </head>
 
-<body class="">
+<body class="faq-accordion">
 
 <!-- Navbar -->
 
@@ -52,12 +52,11 @@
                 <li class="active dropdown">
                     <a class="dropdown-toggle" data-target="#" href="${createLink(uri: '/')}">Inicio</a>
                 </li>
-                <li><a href="${createLink(controller: 'category',action: 'knowledgebase')}">Tutoriales</a></li>
-                <li><a href="#">Artículos</a></li>
+                <li><a href="${createLink(controller: 'category',action: 'knowledgebase')}">Soluciones</a></li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-target="#" href="#">FAQ</a>
+                <a class="dropdown-toggle" data-target="#" href="${createLink(controller: 'question',action: 'index')}">FAQ</a>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" data-target="#" href="#">Otros Recursos</a>
+                <%--<li class="dropdown"><a class="dropdown-toggle" data-target="#" href="#">Otros Recursos</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Contáctanos</a></li>
                         <li><a href="#">Info. General</a></li>
@@ -66,7 +65,7 @@
                         %{--<li><a href="typography.html">Typography</a></li>
                         <li><a href="videos.html">Responsive Videos</a></li>--}%
                     </ul>
-                </li>
+                </li> --%>
             </ul>
         </nav>
 
@@ -77,7 +76,7 @@
                     <li><a href="${createLink(uri: '/')}">Inicio</a></li>
                     <li><a href="${createLink(controller: 'category',action: 'knowledgebase')}">Tutoriales</a></li>
                     <li><a href="#">Artículos</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="${createLink(controller: 'faq',action: 'quickanswers')}">FAQ</a></li>
                     <li><a href="#">Otros Recursos</a></li>
                     <li><a class="responsive-submenu" href="#">Contáctanos</a></li>
                     <li><a class="responsive-submenu" href="#">Info. General</a></li>
@@ -101,19 +100,19 @@
                         <h3>Artículos Recientes</h3>
                         <ul>
                             <%
-                                def articulos = Article.list([max: 10]).sort {it.date}
+                                def articulos = Article.list(sort: 'date', order: 'desc', max: 7)
                             %>
                             <g:if test="${articulos?.size() > 0}">
-                              <g:each in="${articulos}" var="articulo" status="i">
-                                  <li>
-                                      <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
-                                  </li>
-                              </g:each>
+                                <g:each in="${articulos}" var="articulo" status="i">
+                                    <li>
+                                        <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                                    </li>
+                                </g:each>
                             </g:if>
                             <g:else>
                                 <div class="fade in alert alert-info">
                                     <i class="fa fa-fw fa-exclamation-triangle"></i>
-                                   Vuelve pronto y esto estará con contenido.
+                                    Vuelve pronto y esto estará con contenido.
                                 </div>
                             </g:else>
                         </ul>
@@ -124,26 +123,46 @@
                     <div>
                         <h3>Artículos Populares</h3>
                         <ul>
-                            <li>
+                            <%
+                                def articuloshits = Article.list(sort: 'hits', order: 'desc', max: 7)
+                            %>
+                            <g:if test="${articuloshits?.size() > 0}">
+                                <g:each in="${articuloshits}" var="articulo" status="i">
+                                    <li>
+                                        <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                                    </li>
+                                </g:each>
+                            </g:if>
+                            <g:else>
                                 <div class="fade in alert alert-info">
                                     <i class="fa fa-fw fa-exclamation-triangle"></i>
                                     Vuelve pronto y esto estará con contenido.
                                 </div>
-                            </li>
+                            </g:else>
                         </ul>
                     </div>
                 </section>
 
                 <section class="col-sm-3">
                     <div>
-                        <h3>Artículos Más Votados</h3>
+                        <h3>Artículos Votados</h3>
                         <ul>
-                            <li>
+                            <%
+                                def articulosvotes = Article.list(sort: 'votes', order: 'desc', max: 7)
+                            %>
+                            <g:if test="${articulosvotes?.size() > 0}">
+                                <g:each in="${articulosvotes}" var="articulo" status="i">
+                                    <li>
+                                        <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                                    </li>
+                                </g:each>
+                            </g:if>
+                            <g:else>
                                 <div class="fade in alert alert-info">
                                     <i class="fa fa-fw fa-exclamation-triangle"></i>
                                     Vuelve pronto y esto estará con contenido.
                                 </div>
-                            </li>
+                            </g:else>
                         </ul>
                     </div>
                 </section>
@@ -152,12 +171,22 @@
                     <div>
                         <h3>Artículos Más Valiosos</h3>
                         <ul>
-                            <li>
+                            <%
+                                def articulosrating = Article.list(sort: 'rating', order: 'desc', max: 7)
+                            %>
+                            <g:if test="${articulosrating?.size() > 0}">
+                                <g:each in="${articulosrating}" var="articulo" status="i">
+                                    <li>
+                                        <i class="fa fa-fw ${articulo?.type?.icon}"></i> <a href="${createLink(uri: '/')+articulo?.url}" rel="bookmark" title="${URLDecoder.decode(articulo?.title,'ISO-8859-1')}">${URLDecoder.decode(articulo?.title,'ISO-8859-1')}</a>
+                                    </li>
+                                </g:each>
+                            </g:if>
+                            <g:else>
                                 <div class="fade in alert alert-info">
                                     <i class="fa fa-fw fa-exclamation-triangle"></i>
                                     Vuelve pronto y esto estará con contenido.
                                 </div>
-                            </li>
+                            </g:else>
                         </ul>
                     </div>
                 </section>
@@ -173,21 +202,21 @@
                 <div class="col-lg-12">
                     <ul class="social-icons">
                         <li class="btn-social btn-twitter">
-                            <a href="http://twitter.com/nest5_oficial"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_twitter.png')}" alt="Twitter" />
+                            <a href="http://twitter.com/nest5_oficial" target="_blank"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_twitter.png')}" alt="Twitter" />
                             </a>
                         </li>
                         <li class="btn-social btn-facebook">
-                            <a href="http://facebook.com/nest5Oficial"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_facebook.png')}" alt="Facebook" />
+                            <a href="http://facebook.com/nest5Oficial" target="_blank"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_facebook.png')}" alt="Facebook" />
                             </a>
                         </li>
 
 
                         <li class="btn-social btn-vimeo">
-                            <a href="http://vimeo.com/nest5"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_vimeo.png')}" alt="Vimeo" />
+                            <a href="http://vimeo.com/user11004886" target="_blank"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_vimeo.png')}" alt="Vimeo" />
                             </a>
                         </li>
                         <li class="btn-social btn-youtube">
-                            <a href="http://youtube.com/nest5_oficial"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_youtube.png')}" alt="YouTube" />
+                            <a href="http://youtube.com/Nest5Oficial" target="_blank"><img src="${resource(dir:'bootstrap3update/assets/img/social/white',file:'icons_youtube.png')}" alt="YouTube" />
                             </a>
                         </li>
 

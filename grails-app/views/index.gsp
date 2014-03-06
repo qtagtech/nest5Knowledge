@@ -39,7 +39,7 @@
       <div id="boxes">
           <div class="home-title">
               <h2>Bienvenido al Centro de Soporte Nest5</h2>
-              <p>En este sitio aclaramos de forma rápida y eficiente tus dudas para que saques el mayor provecho de Nest5, tanto si eres empresa como si eres un usuario. Si no enceuntras solución aquí, comúnicate con nosotros.</p>        </div>
+              <p>En este sitio aclaramos de forma rápida y eficiente tus dudas para que saques el mayor provecho de Nest5, tanto si eres empresa como si eres un usuario.<span class="label label-info" > Si no encuentras una respuesta útil, siempre puedes comunicarte con nosotros a soporte@nest5.com.</span></p>        </div>
           <div class="row">
               <div class="col-sm-4">
                   <article class="box box-left">
@@ -56,8 +56,8 @@
                       <div class="circle">
                           <a href="#"><span></span><i class="fa fa-question-circle"></i></a>
                       </div>
-                      <h3><a href="#">FAQ <span class="label label-info" style="font-size: 0.4em;">PRONTO</span></a></h3>
-                      <p>Preguntas frecuentes con su inmediata respuesta sobre Nest5. Es la forma más fácil de encontrar la información que busques.</p>
+                      <h3><a href="#">FAQ</a></h3>
+                      <p>Preguntas frecuentes con su inmediata respuesta sobre Nest5. Es la forma más fácil de encontrar la información que buscas.</p>
                       <a class="btn" href="#">Continuar</a>
                   </article>
               </div>

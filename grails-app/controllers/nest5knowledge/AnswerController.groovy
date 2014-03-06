@@ -1,24 +1,30 @@
 package nest5knowledge
 
+import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.dao.DataIntegrityViolationException
 
 class AnswerController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+    @Secured(["ROLE_ADMIN"])
     def index() {
         redirect(action: "list", params: params)
     }
 
+
+    @Secured(["ROLE_ADMIN"])
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         [answerInstanceList: Answer.list(params), answerInstanceTotal: Answer.count()]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def create() {
         [answerInstance: new Answer(params)]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def save() {
         def answerInstance = new Answer(params)
         if (!answerInstance.save(flush: true)) {
@@ -30,6 +36,7 @@ class AnswerController {
         redirect(action: "show", id: answerInstance.id)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def show(Long id) {
         def answerInstance = Answer.get(id)
         if (!answerInstance) {
@@ -41,6 +48,7 @@ class AnswerController {
         [answerInstance: answerInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def edit(Long id) {
         def answerInstance = Answer.get(id)
         if (!answerInstance) {
@@ -52,6 +60,7 @@ class AnswerController {
         [answerInstance: answerInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def update(Long id, Long version) {
         def answerInstance = Answer.get(id)
         if (!answerInstance) {
@@ -81,6 +90,7 @@ class AnswerController {
         redirect(action: "show", id: answerInstance.id)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def delete(Long id) {
         def answerInstance = Answer.get(id)
         if (!answerInstance) {

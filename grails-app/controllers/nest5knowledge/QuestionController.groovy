@@ -1,24 +1,42 @@
 package nest5knowledge
 
+import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.dao.DataIntegrityViolationException
 
 class QuestionController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
-    def index() {
-        redirect(action: "list", params: params)
+
+    @Secured(["permitAll"])
+    def index(Integer max) {
+        params.max = Math.min(max ?: 10, 100)
+        def result =[:]
+        def categories = Category.list()
+        categories.each {
+           def questions = Question.findAllByCategory(it)
+            println questions
+            if(questions){
+                //
+                result[it] = questions
+            }
+        }
+        [resultado: result]
+
     }
 
+    @Secured(["ROLE_ADMIN"])
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         [questionInstanceList: Question.list(params), questionInstanceTotal: Question.count()]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def create() {
         [questionInstance: new Question(params)]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def save() {
         def questionInstance = new Question(params)
         if (!questionInstance.save(flush: true)) {
@@ -30,6 +48,7 @@ class QuestionController {
         redirect(action: "show", id: questionInstance.id)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def show(Long id) {
         def questionInstance = Question.get(id)
         if (!questionInstance) {
@@ -41,6 +60,7 @@ class QuestionController {
         [questionInstance: questionInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def edit(Long id) {
         def questionInstance = Question.get(id)
         if (!questionInstance) {
@@ -52,6 +72,7 @@ class QuestionController {
         [questionInstance: questionInstance]
     }
 
+    @Secured(["ROLE_ADMIN"])
     def update(Long id, Long version) {
         def questionInstance = Question.get(id)
         if (!questionInstance) {
@@ -81,6 +102,7 @@ class QuestionController {
         redirect(action: "show", id: questionInstance.id)
     }
 
+    @Secured(["ROLE_ADMIN"])
     def delete(Long id) {
         def questionInstance = Question.get(id)
         if (!questionInstance) {

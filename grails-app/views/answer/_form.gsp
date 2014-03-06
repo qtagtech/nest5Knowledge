@@ -2,13 +2,7 @@
 
 
 
-<div class="fieldcontain ${hasErrors(bean: answerInstance, field: 'comments', 'error')} ">
-	<label for="comments">
-		<g:message code="answer.comments.label" default="Comments" />
-		
-	</label>
-	<g:select name="comments" from="${nest5knowledge.Comment.list()}" multiple="multiple" optionKey="id" size="5" value="${answerInstance?.comments*.id}" class="many-to-many"/>
-</div>
+
 
 <div class="fieldcontain ${hasErrors(bean: answerInstance, field: 'content', 'error')} ">
 	<label for="content">

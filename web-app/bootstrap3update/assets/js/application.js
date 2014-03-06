@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
 ***************************************************/
 
 // Load countries then initialize plugin:
-jQuery.ajax({
+/*jQuery.ajax({
     url: 'content/countries.txt',
     dataType: 'json'
 }).done(function (source) {
@@ -32,14 +32,14 @@ jQuery.ajax({
         lookup: countriesArray
     });
     
-});
+});*/
 
 /***************************************************
       FAQ Pages
 ***************************************************/
 
 jQuery(document).ready(function(){
-    
+
     jQuery('.faq-accordion .faq-content').hide();
     
     jQuery('.faq-accordion .faq .entry-title').click(function(){
