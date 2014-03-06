@@ -2,34 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/question/index.gsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/question/_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/question/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/question/edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/question/show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\putav_000\Documents\GitHub\nest5Knowledge\grails-app\views\question\list.gsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/AnswerController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/AnswerController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/QuestionController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nest5knowledge/QuestionController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/answer/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/answer/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/application.js" afterPath="$PROJECT_DIR$/web-app/bootstrap3update/assets/js/application.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure2_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure2_closure5_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure3_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure4_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1_closure4_closure8_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Admin$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Admin$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Admin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Answer$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Answer$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Answer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/AnswerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Article$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Article$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Article.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/ArticleController$_save_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/ArticleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/ArticleTag$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/ArticleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Category$__clinit__closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Category$__clinit__closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Category$_getArticles_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Category$_getQuestions_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Category.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/CategoryController$_knowledgebase_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/CategoryController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Comment$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Comment$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/CommentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Question$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Question$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Question.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionController$_index_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionController$_index_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionController$_index_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionController$_index_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionTag$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/QuestionTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecRole$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecRole$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUser$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUser$__clinit__closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUser$_getAuthorities_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$__clinit__closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_get_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_get_closure1_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_removeAll_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_removeAll_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_remove_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole$_remove_closure2_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/SecUserSecRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Tag$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Tag$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Tag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/TagController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Type$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/nest5knowledge/TypeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp" afterPath="$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nest5Knowledge-grailsPlugins.iml" afterPath="$PROJECT_DIR$/nest5Knowledge-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nest5Knowledge.iml" afterPath="$PROJECT_DIR$/nest5Knowledge.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/article/view.gsp" afterPath="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nest5Knowledge.iws" />
@@ -98,7 +166,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="67.38461" vertical-offset="2449" max-vertical-offset="3264">
+            <state line="61" column="200" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -107,7 +175,7 @@
       <file leaf-file-name="b3knowledge.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="85" selection-start="11131" selection-end="11131" vertical-scroll-proportion="0.7283372" vertical-offset="3395" max-vertical-offset="4250">
+            <state line="218" column="85" selection-start="11131" selection-end="11131" vertical-scroll-proportion="0.8095238" vertical-offset="2505" max-vertical-offset="3750">
               <folding />
             </state>
           </provider>
@@ -116,7 +184,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/question/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="-11.734694" vertical-offset="2111" max-vertical-offset="3145">
+            <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="0.0" vertical-offset="2370" max-vertical-offset="2775">
               <folding />
             </state>
           </provider>
@@ -125,10 +193,8 @@
       <file leaf-file-name="view.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="9" selection-start="9177" selection-end="14418" vertical-scroll-proportion="-5.5510206" vertical-offset="2023" max-vertical-offset="4403">
-              <folding>
-                <marker date="1393358886000" expanded="true" signature="14524:14530" placeholder="{...}" />
-              </folding>
+            <state line="135" column="9" selection-start="9177" selection-end="14418" vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="3885">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +202,7 @@
       <file leaf-file-name="knowledgebase.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-9.571428" vertical-offset="160" max-vertical-offset="3468">
+            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
@@ -189,10 +255,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +274,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -221,14 +285,27 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nest5Knowledge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jre7" />
@@ -236,7 +313,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -262,12 +339,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:nest5Knowledge">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -276,6 +347,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -287,6 +364,38 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -317,17 +426,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -349,128 +460,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Grails:nest5Knowledge" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -510,6 +499,7 @@
       <workItem from="1393875752204" duration="6294000" />
       <workItem from="1393886957523" duration="12122000" />
       <workItem from="1394117719027" duration="8812000" />
+      <workItem from="1394133456041" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Todo">
       <created>1385053234531</created>
@@ -519,11 +509,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53876000" />
+    <option name="totallyTimeSpent" value="54193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,20 +524,20 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46568626" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34313726" sideWeight="0.4994641" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34257427" sideWeight="0.4994641" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24541752" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19607843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24494143" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19538969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18202417" sideWeight="0.7692308" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18157615" sideWeight="0.7692308" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24621212" sideWeight="0.5048544" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -562,7 +552,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -580,25 +570,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/article/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+        <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3060">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/article/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2363">
-          <folding />
-        </state>
+        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2839">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
@@ -653,16 +644,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2363">
-          <folding />
-        </state>
+        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2839">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/jquery.base64.min.js">
@@ -671,13 +658,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/design.gsp">
@@ -729,32 +716,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="10" column="11" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="52" selection-start="5481" selection-end="5481" vertical-scroll-proportion="0.0" vertical-offset="1844" max-vertical-offset="2380">
-          <folding />
-        </state>
+        <state line="130" column="52" selection-start="5481" selection-end="5481" vertical-scroll-proportion="0.0" vertical-offset="1844" max-vertical-offset="2380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/AnswerController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="25" selection-start="3135" selection-end="3135" vertical-scroll-proportion="-22.173914" vertical-offset="1071" max-vertical-offset="2006">
-          <folding>
-            <element signature="e#24#78#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="93" column="25" selection-start="3135" selection-end="3135" vertical-scroll-proportion="-22.173914" vertical-offset="1071" max-vertical-offset="2006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/answer/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="788" selection-end="788" vertical-scroll-proportion="-6.244898" vertical-offset="102" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="24" column="48" selection-start="788" selection-end="788" vertical-scroll-proportion="-6.244898" vertical-offset="102" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
@@ -766,165 +743,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="44" vertical-scroll-proportion="34.0" vertical-offset="1683" max-vertical-offset="2465">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="1" selection-end="44" vertical-scroll-proportion="34.0" vertical-offset="1683" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/category/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="20" selection-end="21" vertical-scroll-proportion="0.05592105" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Grails/grails-2.3.6/dist/grails-plugin-gsp-2.3.6-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ValidationTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="13" selection-start="9685" selection-end="9778" vertical-scroll-proportion="4.3835616" vertical-offset="2599" max-vertical-offset="7871">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="20" selection-end="21" vertical-scroll-proportion="0.05592105" vertical-offset="0" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="12" selection-end="13" vertical-scroll-proportion="-0.9392265" vertical-offset="510" max-vertical-offset="10234">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="12" selection-end="13" vertical-scroll-proportion="-0.9392265" vertical-offset="510" max-vertical-offset="10234" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/bootstrap3update/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1145" column="16" selection-start="22836" selection-end="22836" vertical-scroll-proportion="0.06998158" vertical-offset="19427" max-vertical-offset="20604">
-          <folding />
-        </state>
+        <state line="1145" column="16" selection-start="22836" selection-end="22836" vertical-scroll-proportion="0.06998158" vertical-offset="19427" max-vertical-offset="20604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/ArticleController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="-7.3913045" vertical-offset="0" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="-7.3913045" vertical-offset="0" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="-94.608696" vertical-offset="0" max-vertical-offset="2346">
-          <folding />
-        </state>
+        <state line="129" column="12" selection-start="4627" selection-end="4627" vertical-scroll-proportion="-94.608696" vertical-offset="0" max-vertical-offset="2346" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Article.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="28" column="27" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Question.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="414" selection-end="414" vertical-scroll-proportion="0.7338129" vertical-offset="34" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="414" selection-end="414" vertical-scroll-proportion="0.7338129" vertical-offset="34" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="101" selection-start="924" selection-end="924" vertical-scroll-proportion="0.9958159" vertical-offset="0" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="28" column="101" selection-start="924" selection-end="924" vertical-scroll-proportion="0.9958159" vertical-offset="0" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nest5knowledge/QuestionController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="638" selection-end="638" vertical-scroll-proportion="0.55636364" vertical-offset="51" max-vertical-offset="2193">
-          <folding />
-        </state>
+        <state line="22" column="9" selection-start="638" selection-end="638" vertical-scroll-proportion="0.55636364" vertical-offset="51" max-vertical-offset="2193" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Answer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="226" selection-end="226" vertical-scroll-proportion="0.37918216" vertical-offset="0" max-vertical-offset="538">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="226" selection-end="226" vertical-scroll-proportion="0.37918216" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="9" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.53583616" vertical-offset="1471" max-vertical-offset="2057">
-          <folding />
-        </state>
+        <state line="105" column="9" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.53583616" vertical-offset="1471" max-vertical-offset="2057" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/bootstrap3update/assets/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="26" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.21672355" vertical-offset="1165" max-vertical-offset="1751">
-          <folding />
-        </state>
+        <state line="76" column="26" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.21672355" vertical-offset="1165" max-vertical-offset="1751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="9" selection-start="9177" selection-end="14418" vertical-scroll-proportion="-5.5510206" vertical-offset="2023" max-vertical-offset="4403">
-          <folding>
-            <marker date="1393358886000" expanded="true" signature="14524:14530" placeholder="{...}" />
-          </folding>
+        <state line="135" column="9" selection-start="9177" selection-end="14418" vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="3885">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="-11.734694" vertical-offset="2111" max-vertical-offset="3145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-9.571428" vertical-offset="160" max-vertical-offset="3468">
+        <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="0.0" vertical-offset="2370" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="67.38461" vertical-offset="2449" max-vertical-offset="3264">
+        <state line="61" column="200" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3060">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="85" selection-start="11131" selection-end="11131" vertical-scroll-proportion="0.7283372" vertical-offset="3395" max-vertical-offset="4250">
+        <state line="218" column="85" selection-start="11131" selection-end="11131" vertical-scroll-proportion="0.8095238" vertical-offset="2505" max-vertical-offset="3750">
           <folding />
         </state>
       </provider>
@@ -937,13 +875,13 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="553627097" />
-              <option name="pluginDependenciesCrc" value="1308110995" />
+              <option name="pluginDependenciesCrc" value="1529353079" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="C:\Users\putav_000\.grails\2.3.6\global-plugins" />
-                  <entry key="grails.project.plugins.dir" value="C:\Users\putav_000\.grails\2.3.6\projects\nest5Knowledge\plugins" />
-                  <entry key="grails.project.work.dir" value="C:\Users\putav_000\.grails\2.3.6\projects\nest5Knowledge" />
-                  <entry key="grails.work.dir" value="C:\Users\putav_000\.grails\2.3.6" />
+                  <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.3.5/global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="$USER_HOME$/.grails/2.3.5/projects/nest5Knowledge/plugins" />
+                  <entry key="grails.project.work.dir" value="$USER_HOME$/.grails/2.3.5/projects/nest5Knowledge" />
+                  <entry key="grails.work.dir" value="$USER_HOME$/.grails/2.3.5" />
                 </map>
               </option>
             </GrailsSettings>
