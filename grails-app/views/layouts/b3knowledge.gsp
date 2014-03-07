@@ -74,14 +74,8 @@
             <nav class="nav-responsive collapse" role="navigation">
                 <ul class="nav">
                     <li><a href="${createLink(uri: '/')}">Inicio</a></li>
-                    <li><a href="${createLink(controller: 'category',action: 'knowledgebase')}">Tutoriales</a></li>
-                    <li><a href="#">Artículos</a></li>
+                    <li><a href="${createLink(controller: 'category',action: 'knowledgebase')}">Soluciones</a></li><li><a href="#">Artículos</a></li>
                     <li><a href="${createLink(controller: 'faq',action: 'quickanswers')}">FAQ</a></li>
-                    <li><a href="#">Otros Recursos</a></li>
-                    <li><a class="responsive-submenu" href="#">Contáctanos</a></li>
-                    <li><a class="responsive-submenu" href="#">Info. General</a></li>
-                    <li><a class="responsive-submenu" href="#">Videos</a></li>
-                    <li><a class="responsive-submenu" href="#">Audios</a></li>
                 </ul>
             </nav>
         </div>
