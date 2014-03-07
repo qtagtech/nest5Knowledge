@@ -24,13 +24,14 @@ environments {
                 host = System.env.OPENSHIFT_MONGODB_DB_HOST
                 port = System.env.OPENSHIFT_MONGODB_DB_PORT
                 username = "admin"
-                password="GDqSlKS7E8Vx"
-                databaseName = "pruebamongo"
+                password="krzSFm5GYiPt"
+                databaseName = "nest5support"
             }
         }
 
     }
 }
+
 /*dataSource {
     pooled = true
     driverClassName = "org.h2.Driver"
