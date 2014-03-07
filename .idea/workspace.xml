@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/article/view.gsp" afterPath="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nest5Knowledge.iml" afterPath="$PROJECT_DIR$/nest5Knowledge.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nest5Knowledge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-0.0" vertical-offset="615" max-vertical-offset="2880">
+            <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -97,10 +99,8 @@
       <file leaf-file-name="view.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="36" selection-start="9336" selection-end="9336" vertical-scroll-proportion="-0.0" vertical-offset="2145" max-vertical-offset="3960">
-              <folding>
-                <marker date="1394209609000" expanded="true" signature="14604:14610" placeholder="{...}" />
-              </folding>
+            <state line="143" column="36" selection-start="10246" selection-end="10246" vertical-scroll-proportion="0.0" vertical-offset="2145" max-vertical-offset="4185">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +108,7 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="459" selection-end="459" vertical-scroll-proportion="0.4709576" vertical-offset="0" max-vertical-offset="637">
+            <state line="15" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.3537736" vertical-offset="0" max-vertical-offset="636">
               <folding />
             </state>
           </provider>
@@ -117,7 +117,7 @@
       <file leaf-file-name="knowledgebase.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-0.0" vertical-offset="555" max-vertical-offset="3060">
+            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Nest5Knowledge" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -191,7 +191,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -202,44 +202,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nest5Knowledge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nest5Knowledge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nest5Knowledge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nest5Knowledge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nest5Knowledge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
@@ -280,12 +243,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:nest5Knowledge">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -294,6 +251,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -305,6 +268,38 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -333,38 +328,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -444,6 +407,7 @@
       <workItem from="1394205418231" duration="278000" />
       <workItem from="1394208437423" duration="287000" />
       <workItem from="1394210151680" duration="814000" />
+      <workItem from="1394216284905" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="Todo">
       <created>1385053234531</created>
@@ -453,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57717000" />
+    <option name="totallyTimeSpent" value="57910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -468,7 +432,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46568626" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34288538" sideWeight="0.4994641" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34257427" sideWeight="0.4994641" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -562,9 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nest5knowledge/Category.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
@@ -594,9 +556,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/design.gsp">
@@ -713,9 +673,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="20" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/create.gsp">
@@ -787,10 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="36" selection-start="9336" selection-end="9336" vertical-scroll-proportion="-0.0" vertical-offset="2145" max-vertical-offset="3960">
-          <folding>
-            <marker date="1394209609000" expanded="true" signature="14604:14610" placeholder="{...}" />
-          </folding>
+        <state line="143" column="36" selection-start="10246" selection-end="10246" vertical-scroll-proportion="0.0" vertical-offset="2145" max-vertical-offset="4185">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="459" selection-end="459" vertical-scroll-proportion="0.4709576" vertical-offset="0" max-vertical-offset="637">
+        <state line="15" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.3537736" vertical-offset="0" max-vertical-offset="636">
           <folding />
         </state>
       </provider>
