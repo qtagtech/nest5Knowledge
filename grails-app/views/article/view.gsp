@@ -52,6 +52,9 @@
               <time class="updated" datetime="2012-11-05T20:30:07+00:00" pubdate>Última Actualización: <g:formatDate date="${articleInstance?.date}" type="date" style="LONG" locale="es_CO"/> </time>
               <p class="byline author vcard">Por <a href="#" rel="author" class="fn">Equipo de Soporte Nest5</a></p>
             </footer>
+
+            <%-- sección de comentarios
+
             <div id="author-box" class="clearfix">
               <div class="author-box-image">
                 <img alt='' src='http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y' class='avatar pull-left media-object avatar-72 photo' height='72' width='72' />        </div><!-- /.author-box-image -->
@@ -132,6 +135,8 @@
             </article>
 
         </div><!-- /.main -->
+
+         sección de comentarios --%>
 
         <!-- Sidebar -->
         <aside class="sidebar col-sm-3" role="complementary">
