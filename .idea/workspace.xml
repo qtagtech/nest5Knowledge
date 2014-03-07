@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de60d16a-c7d7-4a06-a5f5-62ff6f528be0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/article/view.gsp" afterPath="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nest5Knowledge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,16 +72,16 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.0" vertical-offset="2449" max-vertical-offset="3264">
+            <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="77.19231" vertical-offset="2704" max-vertical-offset="3264">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="b3knowledge.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="b3knowledge.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="106" selection-start="3648" selection-end="3648" vertical-scroll-proportion="37.26923" vertical-offset="2261" max-vertical-offset="4148">
+            <state line="76" column="115" selection-start="3657" selection-end="3657" vertical-scroll-proportion="0.6415094" vertical-offset="1020" max-vertical-offset="4148">
               <folding />
             </state>
           </provider>
@@ -88,19 +90,17 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/question/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="0.0" vertical-offset="2111" max-vertical-offset="3145">
+            <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="1.1836735" vertical-offset="2744" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="36" selection-start="9246" selection-end="9246" vertical-scroll-proportion="2.6541502" vertical-offset="1003" max-vertical-offset="4488">
-              <folding>
-                <marker date="1394208730809" expanded="true" signature="14604:14610" placeholder="{...}" />
-              </folding>
+            <state line="127" column="28" selection-start="8991" selection-end="8991" vertical-scroll-proportion="-44.061226" vertical-offset="0" max-vertical-offset="4726">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +108,7 @@
       <file leaf-file-name="knowledgebase.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="3468">
+            <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-9.571428" vertical-offset="160" max-vertical-offset="3468">
               <folding />
             </state>
           </provider>
@@ -155,16 +155,16 @@
         <option value="$PROJECT_DIR$/grails-app/views/question/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/article/view.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1358" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -484,7 +484,7 @@
       <workItem from="1394117719027" duration="10620000" />
       <workItem from="1394146207366" duration="654000" />
       <workItem from="1394205418231" duration="278000" />
-      <workItem from="1394208437423" duration="287000" />
+      <workItem from="1394208437423" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="Todo">
       <created>1385053234531</created>
@@ -494,10 +494,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56903000" />
+    <option name="totallyTimeSpent" value="58958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1358" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -515,13 +515,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24538462" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2020202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2009804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18538462" sideWeight="0.7692308" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18202417" sideWeight="0.7692308" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24621212" sideWeight="0.5048544" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -815,40 +815,38 @@
         <state line="76" column="26" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.21672355" vertical-offset="1165" max-vertical-offset="1751" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="77.19231" vertical-offset="2704" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/question/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="0.0" vertical-offset="2111" max-vertical-offset="3145">
+        <state line="158" column="34" selection-start="7324" selection-end="7324" vertical-scroll-proportion="1.1836735" vertical-offset="2744" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/category/knowledgebase.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="200" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.0" vertical-offset="2449" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="106" selection-start="3648" selection-end="3648" vertical-scroll-proportion="37.26923" vertical-offset="2261" max-vertical-offset="4148">
+        <state line="37" column="33" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-9.571428" vertical-offset="160" max-vertical-offset="3468">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/article/view.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="36" selection-start="9246" selection-end="9246" vertical-scroll-proportion="2.6541502" vertical-offset="1003" max-vertical-offset="4488">
-          <folding>
-            <marker date="1394208730809" expanded="true" signature="14604:14610" placeholder="{...}" />
-          </folding>
+        <state line="127" column="28" selection-start="8991" selection-end="8991" vertical-scroll-proportion="-44.061226" vertical-offset="0" max-vertical-offset="4726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/b3knowledge.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="115" selection-start="3657" selection-end="3657" vertical-scroll-proportion="0.6415094" vertical-offset="1020" max-vertical-offset="4148">
+          <folding />
         </state>
       </provider>
     </entry>
